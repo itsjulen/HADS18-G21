@@ -15,7 +15,7 @@ Public Class WebForm2
             conectar()
             Dim ret As String = insertar_usuario(email.Text, nombre.Text, apellido.Text, CInt(claveRnd), tipo.Text, password1.Text)
             If ret = "1" Then
-                Dim mensaje As String = "Confirma tu registro haciendo clik <a href='http://localhost:59510/ConfirmarRegistro.aspx?email=" + email.Text + "&clave=" + claveRnd + "'>aquí</a>."
+                Dim mensaje As String = "Confirma tu registro haciendo clik <a href='https://hads18-webapp21.azurewebsites.net//ConfirmarRegistro.aspx?email=" + email.Text + "&clave=" + claveRnd + "'>aquí</a>."
                 emailSender.enviarEmail(email.Text, mensaje)
                 Response.Write("<script language='javascript'> alert('Registro completado con éxito, revise el correo para realizar la confirmación.'); </script>")
                 Server.Transfer("InicioSesion.aspx", True)

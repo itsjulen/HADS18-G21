@@ -66,4 +66,39 @@ Public Class AccesoABD
         End If
         Return False
     End Function
+    Public Shared Function solicitar_cambio(ByVal email As String, ByVal clave As Integer) As Boolean
+        Dim st = "select email from Usuarios where email='" & email & "'"
+        comando = New SqlCommand(st, conexion)
+        Dim reader As SqlDataReader = comando.ExecuteReader()
+        If reader.Read Then
+            Dim update = "update Usuarios set numconfir='" & clave & "' where email='" & email & "'"
+            comando = New SqlCommand(update, conexion)
+            Dim ret = comando.ExecuteNonQuery()
+            If ret = 1 Then
+                Return True
+            End If
+        End If
+        Return False
+    End Function
+
+    Public Shared Function cambiar_password(ByVal email As String, ByVal clave As Integer, ByVal password As String) As Boolean
+        If Not clave = 0 Then
+            Dim st = "select numconfir from Usuarios where email='" & email & "'"
+            comando = New SqlCommand(st, conexion)
+            Dim reader As SqlDataReader = comando.ExecuteReader()
+            If reader.Read Then
+                Dim num = reader.Item("numconfir")
+                If num.Equals(clave) Then
+                    Dim update = "update Usuarios set pass='" & password & "', numconfir=0 where email='" & email & "'"
+                    comando = New SqlCommand(update, conexion)
+                    Dim ret = comando.ExecuteNonQuery()
+                    If ret = 1 Then
+                        Return True
+                    End If
+                End If
+            End If
+            Return False
+        End If
+        Return False
+    End Function
 End Class

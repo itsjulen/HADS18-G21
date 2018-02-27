@@ -7,3 +7,4 @@ C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Debug\AccesoABD.vbproj.Co
 C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Debug\AccesoABD.dll
 C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Debug\AccesoABD.xml
 C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Debug\AccesoABD.pdb
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Debug\AccesoABD.vbprojResolveAssemblyReference.cache
