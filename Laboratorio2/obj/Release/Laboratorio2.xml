@@ -1,0 +1,410 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Laboratorio2
+</name>
+</assembly>
+<members>
+<member name="T:Laboratorio2.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Laboratorio2.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:Laboratorio2.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:Laboratorio2.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:Laboratorio2.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:Laboratorio2.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:Laboratorio2.ConfirmarRegistro._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.ConfirmarRegistro._email">
+<summary>
+Control email.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.ConfirmarRegistro._clave">
+<summary>
+Control clave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.ConfirmarRegistro._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Inicio._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Inicio._Image2">
+<summary>
+Control Image2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm1._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm1._email">
+<summary>
+Control email.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm1._password">
+<summary>
+Control password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm1._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm1._Button2">
+<summary>
+Control Button2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm1._Button3">
+<summary>
+Control Button3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm1._erMsg">
+<summary>
+Control erMsg.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._email">
+<summary>
+Control email.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._RegularExpressionValidator1">
+<summary>
+Control RegularExpressionValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._nombre">
+<summary>
+Control nombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._apellido">
+<summary>
+Control apellido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._RequiredFieldValidator6">
+<summary>
+Control RequiredFieldValidator6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._password1">
+<summary>
+Control password1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._password2">
+<summary>
+Control password2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._CompareValidator1">
+<summary>
+Control CompareValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._tipo">
+<summary>
+Control tipo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._errorMsg">
+<summary>
+Control errorMsg.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._email">
+<summary>
+Control email.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._emailValidator">
+<summary>
+Control emailValidator.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._Button3">
+<summary>
+Control Button3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._claveRnd">
+<summary>
+Control claveRnd.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._clave">
+<summary>
+Control clave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._claveVal">
+<summary>
+Control claveVal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._password1">
+<summary>
+Control password1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._password1Validation">
+<summary>
+Control password1Validation.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._password2">
+<summary>
+Control password2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._password2Validation">
+<summary>
+Control password2Validation.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm3._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

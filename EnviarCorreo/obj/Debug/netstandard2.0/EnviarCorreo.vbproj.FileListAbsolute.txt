@@ -1,0 +1,8 @@
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\bin\Debug\netstandard2.0\EnviarCorreo.deps.json
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\bin\Debug\netstandard2.0\EnviarCorreo.dll
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\bin\Debug\netstandard2.0\EnviarCorreo.pdb
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.vbproj.CoreCompileInputs.cache
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.AssemblyInfoInputs.cache
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.AssemblyInfo.vb
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.dll
+C:\Users\mjule\source\repos\Laboratorio2\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.pdb

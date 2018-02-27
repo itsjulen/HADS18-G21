@@ -1,0 +1,10 @@
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\bin\Release\AccesoABD.dll
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\bin\Release\AccesoABD.pdb
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\bin\Release\AccesoABD.xml
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Release\AccesoABD.vbprojResolveAssemblyReference.cache
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Release\AccesoABD.Resources.resources
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Release\AccesoABD.vbproj.GenerateResource.Cache
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Release\AccesoABD.vbproj.CoreCompileInputs.cache
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Release\AccesoABD.dll
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Release\AccesoABD.xml
+C:\Users\mjule\source\repos\Laboratorio2\AccesoABD\obj\Release\AccesoABD.pdb
