@@ -102,7 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ConfirmarRegistro.aspx" />
-    <Content Include="Inicio.aspx" />
+    <Content Include="Profesor.aspx" />
     <Content Include="Web.config" />
     <Content Include="InicioSesion.aspx" />
     <Content Include="Registro.aspx" />
@@ -114,13 +114,6 @@
     </Compile>
     <Compile Include="ConfirmarRegistro.aspx.vb">
       <DependentUpon>ConfirmarRegistro.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Inicio.aspx.designer.vb">
-      <DependentUpon>Inicio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Inicio.aspx.vb">
-      <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -147,6 +140,13 @@
     </Compile>
     <Compile Include="InicioSesion.aspx.vb">
       <DependentUpon>InicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesor.aspx.designer.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor.aspx.vb">
+      <DependentUpon>Profesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">

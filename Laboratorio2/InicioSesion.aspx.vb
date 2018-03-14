@@ -20,13 +20,20 @@ Public Class WebForm1
         Dim resp As Integer = iniciar_sesion(email.Text, password.Text)
         cerrarconexion()
         Select Case resp
-            Case 0
-                Response.Write("<script language='javascript'> alert('Usuario correcto, bienvenido'); </script>")
-                Server.Transfer("Inicio.aspx", True)
+            Case 0 'Profesor
+                Response.Write("<script language='javascript'> alert('Bienvenido/a, profesor/a'); </script>")
+                Session.Contents("email") = email.Text
+                Session.Contents("tipo") = "Profesor"
+                Response.Redirect("Profesor.aspx", True)
             Case 1
                 erMsg.Text = "El usuario no ha sido confirmado"
             Case 2
                 erMsg.Text = "Usuario o contraseña incorrecto"
+            Case 3
+                Response.Write("<script language='javascript'> alert('Bienvenido/a, alumno/a'); </script>")
+                Session.Contents("email") = email.Text
+                Session.Contents("tipo") = "Alumno"
+                Response.Redirect("Alumno.aspx", True)
         End Select
     End Sub
 End Class

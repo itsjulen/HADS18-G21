@@ -7,7 +7,7 @@ Public Class AccesoABD
 
     Public Shared Function conectar() As String
         Try
-            conexion.ConnectionString = “Server=tcp:hads21-2018.database.windows.net,1433;Initial Catalog=HADS21-TAREAS;Persist Security Info=False;User ID=jv21;Password=***;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+            conexion.ConnectionString = “Server=tcp:hads21-2018.database.windows.net,1433;Initial Catalog=HADS21-TAREAS;Persist Security Info=False;User ID=jv21;Password=****;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
             conexion.Open()
         Catch ex As Exception
             Return "ERROR DE CONEXIÓN: " + ex.Message
@@ -32,17 +32,22 @@ Public Class AccesoABD
     End Function
 
     Public Shared Function iniciar_sesion(ByVal email As String, ByVal password As String) As Integer
-        Dim st = "select pass, confirmado from Usuarios where email='" & email & "'"
+        Dim st = "select pass, confirmado, tipo from Usuarios where email='" & email & "'"
         comando = New SqlCommand(st, conexion)
         Dim reader As SqlDataReader = comando.ExecuteReader()
         If reader.Read Then
             Dim pass = reader.Item("pass")
             Dim confirmado = reader.Item("confirmado")
+            Dim tipo = reader.Item("tipo")
             If pass = password Then
                 If confirmado Then
-                    Return 0 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado
+                    If tipo.Equals("Profesor") Then
+                        Return 0 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Profesor
+                    ElseIf tipo.Equals("Alumno") Then
+                        Return 3 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Alumno
+                    End If
                 Else
-                    Return 1 'Caso en el que la contraseña es correcta pero el usuario no ha sido confirmado
+                        Return 1 'Caso en el que la contraseña es correcta pero el usuario no ha sido confirmado
                 End If
             End If
         End If
