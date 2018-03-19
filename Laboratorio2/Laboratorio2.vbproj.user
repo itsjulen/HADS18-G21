@@ -10,6 +10,7 @@
     <UseGlobalApplicationHostFile />
     <NameOfLastUsedPublishProfile>hads18-webapp21 - Web Deploy</NameOfLastUsedPublishProfile>
     <ProjectView>ShowAllFiles</ProjectView>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
