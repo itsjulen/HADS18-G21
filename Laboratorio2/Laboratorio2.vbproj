@@ -55,6 +55,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web.DynamicData" />
@@ -104,6 +105,7 @@
     <Content Include="Alumno.aspx" />
     <Content Include="CerrarSesion.aspx" />
     <Content Include="ConfirmarRegistro.aspx" />
+    <Content Include="EstadisticaProfesor.aspx" />
     <Content Include="InsertarTarea.aspx" />
     <Content Include="InstanciarTarea.aspx" />
     <Content Include="Profesor.aspx" />
@@ -134,6 +136,13 @@
     </Compile>
     <Compile Include="ConfirmarRegistro.aspx.vb">
       <DependentUpon>ConfirmarRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EstadisticaProfesor.aspx.designer.vb">
+      <DependentUpon>EstadisticaProfesor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstadisticaProfesor.aspx.vb">
+      <DependentUpon>EstadisticaProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="InsertarTarea.aspx.designer.vb">
