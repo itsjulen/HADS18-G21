@@ -9,6 +9,7 @@
         .auto-style1 {
             height: 26px;
         }
+
         .auto-style2 {
             margin-bottom: 0px;
         }
@@ -16,7 +17,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+        <div>
             <table>
                 <tr>
                     <td>Usuario</td>
@@ -41,11 +42,19 @@
                     <td>
                         <asp:TextBox ID="hreal" runat="server" CssClass="auto-style2"></asp:TextBox>
                     </td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Campo obligatorio" ControlToValidate="hreal" EnableClientScript="False"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1"
+                            ControlToValidate="hreal" runat="server"
+                            ErrorMessage="Solo se permiten números"
+                            ValidationExpression="\d+" EnableClientScript="False"></asp:RegularExpressionValidator>
+                    </td>
                 </tr>
-               
+
                 <tr>
                     <td class="auto-style1">
                         <asp:Button ID="crear" runat="server" Text="Crear Tarea" />
+                        <asp:Label runat="server" ID="errormsg"></asp:Label>
                         <br />
                         <asp:GridView ID="GridView1" runat="server">
                         </asp:GridView>

@@ -24,12 +24,18 @@
                     <td>
                         <asp:TextBox ID="codigo" runat="server"></asp:TextBox>
                     </td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Campo obligatorio" ControlToValidate="codigo" EnableClientScript="False"></asp:RequiredFieldValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td>Descripción:
                     </td>
                     <td>
                         <asp:TextBox ID="desc" runat="server"></asp:TextBox>
+                    </td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Campo obligatorio" ControlToValidate="desc" EnableClientScript="False"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -44,6 +50,9 @@
                     </td>
                     <td>
                         <asp:TextBox ID="horas" runat="server"></asp:TextBox>
+                    </td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Campo obligatorio" ControlToValidate="horas" EnableClientScript="False"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>

@@ -31,7 +31,7 @@ Public Class AccesoABD
         Return (CStr(numregs))
     End Function
 
-    Public Shared Function iniciar_sesion(ByVal email As String, ByVal password As String) As Integer
+    Public Shared Function iniciar_sesion(ByVal email As String, ByVal password As String) As String
         Dim st = "select pass, confirmado, tipo from Usuarios where email='" & email & "'"
         comando = New SqlCommand(st, conexion)
         Dim reader As SqlDataReader = comando.ExecuteReader()
@@ -42,16 +42,16 @@ Public Class AccesoABD
             If pass = password Then
                 If confirmado Then
                     If tipo.Equals("Profesor") Then
-                        Return 0 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Profesor
+                        Return "Profesor" 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Profesor
                     ElseIf tipo.Equals("Alumno") Then
-                        Return 3 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Alumno
+                        Return "Alumno" 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Alumno
                     End If
                 Else
-                        Return 1 'Caso en el que la contraseña es correcta pero el usuario no ha sido confirmado
+                    Return "Error1" 'Caso en el que la contraseña es correcta pero el usuario no ha sido confirmado
                 End If
             End If
         End If
-        Return 2 'Contraseña incorrecta o no existe usuario
+        Return "Error2" 'Contraseña incorrecta o no existe usuario
     End Function
 
     Public Shared Function confirmar_usuario(ByVal email As String, ByVal num As Integer) As Boolean
