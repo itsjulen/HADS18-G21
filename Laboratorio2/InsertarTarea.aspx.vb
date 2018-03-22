@@ -20,15 +20,6 @@ Public Class InsertarTabla
             Session("datos") = dsttareas
             Session("adaptador") = daptareas
         End If
-        If Session.IsNewSession Then
-            Response.Write("<script language='javascript'> alert('Acceso denegado a esta página.'); </script>")
-            Response.Redirect("InicioSesion.aspx", True)
-        End If
-        If Not Session.Contents("tipo").Equals("Profesor") Then
-            Response.Write("<script language='javascript'> alert('Acceso denegado a esta página.'); </script>")
-            Response.Redirect("InicioSesion.aspx", True)
-        End If
-
     End Sub
 
     Protected Sub añadir_Click(sender As Object, e As EventArgs) Handles añadir.Click

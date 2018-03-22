@@ -4,10 +4,6 @@ Public Class ConfirmarRegistro
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        If Not Session.IsNewSession Then
-            Response.Write("<script language='javascript'> alert('Acceso denegado a esta página.'); </script>")
-            Response.Redirect("InicioSesion.aspx", True)
-        End If
         If Request.QueryString.Count = 2 Then
             email.Text = Request.QueryString("email")
             clave.Text = Request.QueryString("clave")

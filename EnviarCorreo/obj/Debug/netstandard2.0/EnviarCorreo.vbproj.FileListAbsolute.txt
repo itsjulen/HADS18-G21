@@ -16,3 +16,12 @@ C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.AssemblyInfo.vb
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.dll
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.pdb
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\bin\Debug\netstandard2.0\EnviarCorreo.deps.json
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\bin\Debug\netstandard2.0\EnviarCorreo.dll
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\bin\Debug\netstandard2.0\EnviarCorreo.pdb
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.vbprojResolveAssemblyReference.cache
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.vbproj.CoreCompileInputs.cache
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.AssemblyInfoInputs.cache
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.AssemblyInfo.vb
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.dll
+C:\Users\mjule\source\repos\HADS18-G21\EnviarCorreo\obj\Debug\netstandard2.0\EnviarCorreo.pdb
