@@ -145,6 +145,69 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Exportar._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Exportar._HyperLink1">
+<summary>
+HyperLink1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Exportar._codasig">
+<summary>
+codasig control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Exportar._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Exportar._exportarbtn">
+<summary>
+exportarbtn control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Exportar._Xml1">
+<summary>
+Xml1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Exportar._HyperLink2">
+<summary>
+HyperLink2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Laboratorio2.ImportarXML._form1">
 <summary>
 form1 control.
@@ -508,6 +571,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Laboratorio2.Profesor._HyperLink5">
 <summary>
 HyperLink5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._HyperLink6">
+<summary>
+HyperLink6 control.
 </summary>
 <remarks>
 Auto-generated field.

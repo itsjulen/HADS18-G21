@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tareas>
+  <tarea codigo="ISO-Lab1">
+    <descripcion>prueba</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Ejercicio</tipotarea>
+  </tarea>
+  <tarea codigo="prueba18">
+    <descripcion>prueba</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+</tareas>

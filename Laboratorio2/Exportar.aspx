@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="ImportarXML.aspx.vb" Inherits="Laboratorio2.ImportarXML" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Exportar.aspx.vb" Inherits="Laboratorio2.Exportar" %>
 
 <!DOCTYPE html>
 
@@ -13,14 +13,14 @@
                 <tr>
                     <td>
                         Profesor <br />
-                        Importar tareas genéricas</td>
+                        Exportar tareas genéricas</td>
                     <td>
                         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/CerrarSesion.aspx">Cerrar Sesión</asp:HyperLink>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        Selecionar Asignatura a importar:<br />
+                        Selecionar Asignatura a exportar:<br />
                         <asp:DropDownList ID="codasig" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="codigo" DataValueField="codigo"></asp:DropDownList>
                     </td>
                 </tr>
@@ -35,7 +35,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="Insertar" runat="server" Text="IMPORTAR (XMLD)" ClientIDMode="AutoID" />
+                        <asp:Button ID="exportarbtn" runat="server" Text="EXPORTAR (XML)" ClientIDMode="AutoID" />
                     </td>
                 </tr>
             </table>

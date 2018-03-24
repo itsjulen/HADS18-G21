@@ -19,6 +19,8 @@
                 <br />
                 <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/ImportarXML.aspx">Importar v. XMLDocument</asp:HyperLink>
                 <br />
+                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Exportar.aspx">Exportar</asp:HyperLink>
+                <br />
                 <asp:HyperLink ID="HyperLink3" runat="server">Grupos</asp:HyperLink>
             </td>
             <td>Gestión Web de Tareas-Dedicación
