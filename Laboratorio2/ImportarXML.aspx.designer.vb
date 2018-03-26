@@ -68,6 +68,15 @@ Partial Public Class ImportarXML
     Protected WithEvents Xml1 As Global.System.Web.UI.WebControls.Xml
     
     '''<summary>
+    '''ErrorMSG control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ErrorMSG As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
     '''HyperLink2 control.
     '''</summary>
     '''<remarks>

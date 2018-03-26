@@ -27,21 +27,27 @@ Public Class ImportarXML
     End Sub
 
     Private Sub codasig_SelectedIndexChanged(sender As Object, e As EventArgs) Handles codasig.SelectedIndexChanged
-        Try
+        If File.Exists(Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")) Then
+            ErrorMSG.Text = ""
+            Xml1.Visible = True
             Xml1.DocumentSource = Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")
             Xml1.TransformSource = Server.MapPath("App_Data/XSLTFile.xsl")
-        Catch ex As FileNotFoundException
-            MsgBox("Ays casi")
-        End Try
+        Else
+            ErrorMSG.Text = "No hay XML a mostrar"
+            Xml1.Visible = False
+        End If
     End Sub
 
     Private Sub codasig_DataBound(sender As Object, e As EventArgs) Handles codasig.DataBound
-        Try
+        If File.Exists(Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")) Then
+            ErrorMSG.Text = ""
+            Xml1.Visible = True
             Xml1.DocumentSource = Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")
             Xml1.TransformSource = Server.MapPath("App_Data/XSLTFile.xsl")
-        Catch ex As FileNotFoundException
-            MsgBox("Ays casi")
-        End Try
+        Else
+            ErrorMSG.Text = "No hay XML a mostrar"
+            Xml1.Visible = False
+        End If
     End Sub
 
     Protected Sub Insertar_Click(sender As Object, e As EventArgs) Handles Insertar.Click
@@ -64,7 +70,7 @@ Public Class ImportarXML
             daptareas.Update(tbltareas)
             tbltareas.AcceptChanges()
         Catch ex As FileNotFoundException
-            MsgBox("Que sea esto porfa")
+            ErrorMSG.Text = "No hay XML para importar"
         End Try
     End Sub
 End Class

@@ -42,6 +42,8 @@
         </div>
         <asp:Xml ID="Xml1" runat="server"></asp:Xml>
         <br />
+        <asp:Label ID="ErrorMSG" runat="server" Text=""></asp:Label>
+        <br />
         <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Profesor.aspx">Volver</asp:HyperLink>
     </form>
 </body>

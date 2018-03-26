@@ -199,6 +199,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Exportar._ErrorMSG">
+<summary>
+ErrorMSG control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Laboratorio2.Exportar._HyperLink2">
 <summary>
 HyperLink2 control.
@@ -256,6 +265,15 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Laboratorio2.ImportarXML._Xml1">
 <summary>
 Xml1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.ImportarXML._ErrorMSG">
+<summary>
+ErrorMSG control.
 </summary>
 <remarks>
 Auto-generated field.

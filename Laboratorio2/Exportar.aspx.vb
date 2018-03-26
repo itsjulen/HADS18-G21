@@ -27,19 +27,27 @@ Public Class Exportar
     End Sub
 
     Private Sub codasig_SelectedIndexChanged(sender As Object, e As EventArgs) Handles codasig.SelectedIndexChanged
-        Try
+        If File.Exists(Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")) Then
+            ErrorMSG.Text = ""
+            Xml1.Visible = True
             Xml1.DocumentSource = Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")
             Xml1.TransformSource = Server.MapPath("App_Data/XSLTFile.xsl")
-        Catch ex As Exception
-        End Try
+        Else
+            ErrorMSG.Text = "No hay XML a mostrar"
+            Xml1.Visible = False
+        End If
     End Sub
 
     Private Sub codasig_DataBound(sender As Object, e As EventArgs) Handles codasig.DataBound
-        'Try
-        '    Xml1.DocumentSource = Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")
-        '    Xml1.TransformSource = Server.MapPath("App_Data/XSLTFile.xsl")
-        'Catch ex As Exception
-        'End Try
+        If File.Exists(Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")) Then
+            ErrorMSG.Text = ""
+            Xml1.Visible = True
+            Xml1.DocumentSource = Server.MapPath("App_Data/" & codasig.SelectedValue & ".xml")
+            Xml1.TransformSource = Server.MapPath("App_Data/XSLTFile.xsl")
+        Else
+            ErrorMSG.Text = "No hay XML a mostrar"
+            Xml1.Visible = False
+        End If
     End Sub
 
     Private Sub exportarbtn_Click(sender As Object, e As EventArgs) Handles exportarbtn.Click
