@@ -63,7 +63,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:HyperLink ID="TareasAlumno" runat="server" NavigateUrl="~/TareasAlumno.aspx">Pagina Anterior</asp:HyperLink>
+                        <asp:HyperLink ID="TareasAlumno" runat="server" NavigateUrl="~/Alumno/TareasAlumno.aspx">Pagina Anterior</asp:HyperLink>
                     </td>
                 </tr>
             </table>

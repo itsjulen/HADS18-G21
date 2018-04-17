@@ -10,7 +10,7 @@
     <table border="1" >
         <tr>
             <td>
-                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/TareasAlumno.aspx">Tareas Genericas </asp:HyperLink> <br />
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Alumno/TareasAlumno.aspx">Tareas Genericas </asp:HyperLink> <br />
                 <asp:HyperLink ID="HyperLink2" runat="server">Tareas Propias</asp:HyperLink> <br />
                 <asp:HyperLink ID="HyperLink3" runat="server">Grupos</asp:HyperLink>
             </td>

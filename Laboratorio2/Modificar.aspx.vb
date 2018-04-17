@@ -1,4 +1,5 @@
-﻿Imports AccesoABD.AccesoABD
+﻿Imports System.Security.Cryptography
+Imports AccesoABD.AccesoABD
 Public Class WebForm3
     Inherits System.Web.UI.Page
 
@@ -28,7 +29,10 @@ Public Class WebForm3
         password2Validation.Validate()
         If password1Validation.IsValid And password2Validation.IsValid Then
             conectar()
-            If cambiar_password(email.Text, clave.Text, password1.Text) Then
+            Dim pass = password1.Text
+            Dim mySHA256 As SHA256 = SHA256Managed.Create()
+            pass = Convert.ToBase64String(mySHA256.ComputeHash(Encoding.UTF8.GetBytes(pass)))
+            If cambiar_password(email.Text, clave.Text, pass) Then
                 Response.Write("<script language='javascript'> alert('Modificación correcta'); </script>")
             Else
                 Response.Write("<script language='javascript'> alert('No se ha modificado la contraseña'); </script>")

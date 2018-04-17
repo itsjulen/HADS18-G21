@@ -15,4 +15,8 @@
     Protected Sub codasig_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
+
+    Protected Sub GridView1_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
 End Class

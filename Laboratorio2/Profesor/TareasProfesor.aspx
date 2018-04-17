@@ -88,7 +88,7 @@
             <SortedDescendingHeaderStyle BackColor="#15524A" />
         </asp:GridView>
         <br />
-        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Profesor.aspx">Volver</asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Profesor/Profesor.aspx">Volver</asp:HyperLink>
     </form>
 </body>
 </html>

@@ -45,6 +45,8 @@ Public Class AccesoABD
                         Return "Profesor" 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Profesor
                     ElseIf tipo.Equals("Alumno") Then
                         Return "Alumno" 'Caso en el que la contraseña es correcta y el usuario ha sido confirmado siendo el tipo Alumno
+                    ElseIf tipo.Equals("Admin") Then
+                        Return "Admin"
                     End If
                 Else
                     Return "Error1" 'Caso en el que la contraseña es correcta pero el usuario no ha sido confirmado

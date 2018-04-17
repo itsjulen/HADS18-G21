@@ -1,4 +1,5 @@
-﻿Imports AccesoABD.AccesoABD
+﻿Imports System.Security.Cryptography
+Imports AccesoABD.AccesoABD
 
 Public Class WebForm2
     Inherits System.Web.UI.Page
@@ -13,7 +14,10 @@ Public Class WebForm2
             Randomize()
             Dim claveRnd As String = CStr(CInt(Rnd() * 9000000) + 1000000)
             conectar()
-            Dim ret As String = insertar_usuario(email.Text, nombre.Text, apellido.Text, CInt(claveRnd), tipo.Text, password1.Text)
+            Dim pass = password1.Text
+            Dim mySHA256 As SHA256 = SHA256Managed.Create()
+            pass = Convert.ToBase64String(mySHA256.ComputeHash(Encoding.UTF8.GetBytes(pass)))
+            Dim ret As String = insertar_usuario(email.Text, nombre.Text, apellido.Text, CInt(claveRnd), tipo.Text, pass)
             If ret = "1" Then
                 Dim mensaje As String = "Confirma tu registro haciendo clik <a href='https://hads18-webapp21.azurewebsites.net//ConfirmarRegistro.aspx?email=" + email.Text + "&clave=" + claveRnd + "'>aquí</a>."
                 emailSender.enviarEmail(email.Text, mensaje)

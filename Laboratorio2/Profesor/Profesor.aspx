@@ -13,13 +13,13 @@
             <td>
                 <asp:HyperLink ID="HyperLink1" runat="server">Asignaturas </asp:HyperLink>
                 <br />
-                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/TareasProfesor.aspx">Tareas</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Profesor/TareasProfesor.aspx">Tareas</asp:HyperLink>
                 <br />
-                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/EstadisticaProfesor.aspx">Estadística</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Profesor/EstadisticaProfesor.aspx">Estadística</asp:HyperLink>
                 <br />
-                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/ImportarXML.aspx">Importar v. XMLDocument</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Profesor/ImportarXML.aspx">Importar v. XMLDocument</asp:HyperLink>
                 <br />
-                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Exportar.aspx">Exportar</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Profesor/Exportar.aspx">Exportar</asp:HyperLink>
                 <br />
                 <asp:HyperLink ID="HyperLink3" runat="server">Grupos</asp:HyperLink>
             </td>
