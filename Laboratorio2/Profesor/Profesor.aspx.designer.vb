@@ -14,6 +14,15 @@ Option Explicit On
 Partial Public Class Profesor
     
     '''<summary>
+    '''form1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    
+    '''<summary>
     '''HyperLink1 control.
     '''</summary>
     '''<remarks>
@@ -66,4 +75,85 @@ Partial Public Class Profesor
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents HyperLink3 As Global.System.Web.UI.WebControls.HyperLink
+    
+    '''<summary>
+    '''ScriptManager1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ScriptManager1 As Global.System.Web.UI.ScriptManager
+    
+    '''<summary>
+    '''UpdatePanel1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents UpdatePanel1 As Global.System.Web.UI.UpdatePanel
+    
+    '''<summary>
+    '''Label1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Logeados control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Logeados As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Alumnos control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Alumnos As Global.System.Web.UI.WebControls.ListBox
+    
+    '''<summary>
+    '''Alumnos_DragPanelExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Alumnos_DragPanelExtender As Global.AjaxControlToolkit.DragPanelExtender
+    
+    '''<summary>
+    '''Profesores control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Profesores As Global.System.Web.UI.WebControls.ListBox
+    
+    '''<summary>
+    '''Profesores_DragPanelExtender control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Profesores_DragPanelExtender As Global.AjaxControlToolkit.DragPanelExtender
+    
+    '''<summary>
+    '''Timer1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Timer1 As Global.System.Web.UI.Timer
 End Class

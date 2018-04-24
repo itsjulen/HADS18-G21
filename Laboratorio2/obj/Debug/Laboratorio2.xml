@@ -100,6 +100,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Alumno._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Laboratorio2.Alumno._HyperLink1">
 <summary>
 HyperLink1 control.
@@ -121,6 +130,96 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Laboratorio2.Alumno._HyperLink3">
 <summary>
 HyperLink3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Logeados">
+<summary>
+Logeados control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Alumnos">
+<summary>
+Alumnos control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Alumnos_DragPanelExtender">
+<summary>
+Alumnos_DragPanelExtender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Profesores">
+<summary>
+Profesores control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Profesores_AnimationExtender">
+<summary>
+Profesores_AnimationExtender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Profesores_DragPanelExtender">
+<summary>
+Profesores_DragPanelExtender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Timer1">
+<summary>
+Timer1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -622,6 +721,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Profesor._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Laboratorio2.Profesor._HyperLink1">
 <summary>
 HyperLink1 control.
@@ -670,6 +778,96 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:Laboratorio2.Profesor._HyperLink3">
 <summary>
 HyperLink3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Logeados">
+<summary>
+Logeados control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Alumnos">
+<summary>
+Alumnos control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Alumnos_DragPanelExtender">
+<summary>
+Alumnos_DragPanelExtender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Profesores">
+<summary>
+Profesores control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Profesores_ResizableControlExtender">
+<summary>
+Profesores_ResizableControlExtender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Profesores_DragPanelExtender">
+<summary>
+Profesores_DragPanelExtender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Timer1">
+<summary>
+Timer1 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -1036,9 +1234,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Laboratorio2.TareasProfesor._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Laboratorio2.TareasProfesor._Insertar">
 <summary>
 Insertar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
 </summary>
 <remarks>
 Auto-generated field.

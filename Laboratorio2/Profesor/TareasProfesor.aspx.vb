@@ -19,4 +19,8 @@
     Protected Sub GridView1_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
+
+    Protected Sub SqlDataSource1_Selecting(sender As Object, e As SqlDataSourceSelectingEventArgs)
+
+    End Sub
 End Class

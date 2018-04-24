@@ -31,10 +31,12 @@ Public Class WebForm1
             End If
             Session.Contents("email") = email.Text
             Session.Contents("tipo") = "Profesor"
+            CType(Application.Contents("Profesores"), ArrayList).Add(email.Text)
             Response.Redirect("Profesor/Profesor.aspx")
         ElseIf resp.Equals("Alumno") Then
             System.Web.Security.FormsAuthentication.SetAuthCookie("alumno", False)
             Session.Contents("email") = email.Text
+            CType(Application.Contents("Alumnos"), ArrayList).Add(email.Text)
             Session.Contents("tipo") = "Alumno"
             Response.Redirect("Alumno/Alumno.aspx")
         ElseIf resp.Equals("Admin") Then

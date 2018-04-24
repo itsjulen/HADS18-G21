@@ -113,3 +113,4 @@ C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\bin\AccesoABD.xml
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\bin\EnviarCorreo.pdb
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\obj\Debug\HADS.vbproj.CopyComplete
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\bin\AjaxControlToolkit.dll

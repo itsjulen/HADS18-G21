@@ -18,3 +18,13 @@ C:\Users\mjule\source\repos\HADS18-G21\AccesoABD\obj\Release\AccesoABD.vbproj.Co
 C:\Users\mjule\source\repos\HADS18-G21\AccesoABD\obj\Release\AccesoABD.dll
 C:\Users\mjule\source\repos\HADS18-G21\AccesoABD\obj\Release\AccesoABD.xml
 C:\Users\mjule\source\repos\HADS18-G21\AccesoABD\obj\Release\AccesoABD.pdb
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\bin\Release\AccesoABD.dll
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\bin\Release\AccesoABD.pdb
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\bin\Release\AccesoABD.xml
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\obj\Release\AccesoABD.vbprojResolveAssemblyReference.cache
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\obj\Release\AccesoABD.Resources.resources
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\obj\Release\AccesoABD.vbproj.GenerateResource.cache
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\obj\Release\AccesoABD.vbproj.CoreCompileInputs.cache
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\obj\Release\AccesoABD.dll
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\obj\Release\AccesoABD.xml
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\AccesoABD\obj\Release\AccesoABD.pdb
