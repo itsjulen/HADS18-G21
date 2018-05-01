@@ -25,6 +25,8 @@
                 <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Profesor/Exportar.aspx">Exportar</asp:HyperLink>
                 <br />
                 <asp:HyperLink ID="HyperLink3" runat="server">Grupos</asp:HyperLink>
+                <br />
+                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Profesor/coordinador.aspx">Coordinador</asp:HyperLink>
             </td>
             <td>Gestión Web de Tareas-Dedicación
                 <br />

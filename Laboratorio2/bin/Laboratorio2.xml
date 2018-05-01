@@ -199,18 +199,9 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Laboratorio2.Alumno._Profesores_AnimationExtender">
+<member name="F:Laboratorio2.Alumno._Profesores_ResizableControlExtender">
 <summary>
-Profesores_AnimationExtender control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:Laboratorio2.Alumno._Profesores_DragPanelExtender">
-<summary>
-Profesores_DragPanelExtender control.
+Profesores_ResizableControlExtender control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -269,6 +260,123 @@ Control Button1.
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._HyperLink2">
+<summary>
+HyperLink2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._SqlDataSource1">
+<summary>
+SqlDataSource1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._media">
+<summary>
+media control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.coordinador._HyperLink1">
+<summary>
+HyperLink1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.EstadisticaProfesor._SqlDataSource1">
@@ -784,6 +892,15 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Profesor._HyperLink7">
+<summary>
+HyperLink7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Laboratorio2.Profesor._ScriptManager1">
 <summary>
 ScriptManager1 control.
@@ -847,15 +964,6 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:Laboratorio2.Profesor._Profesores_ResizableControlExtender">
-<summary>
-Profesores_ResizableControlExtender control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
 <member name="F:Laboratorio2.Profesor._Profesores_DragPanelExtender">
 <summary>
 Profesores_DragPanelExtender control.
@@ -876,146 +984,173 @@ To modify move field declaration from designer file to code-behind file.
 </member>
 <member name="F:Laboratorio2.WebForm2._form1">
 <summary>
-Control form1.
+form1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._email">
 <summary>
-Control email.
+email control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Laboratorio2.WebForm2._emailval">
+<summary>
+emailval control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._RequiredFieldValidator1">
 <summary>
-Control RequiredFieldValidator1.
+RequiredFieldValidator1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._RegularExpressionValidator1">
 <summary>
-Control RegularExpressionValidator1.
+RegularExpressionValidator1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._nombre">
 <summary>
-Control nombre.
+nombre control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._RequiredFieldValidator2">
 <summary>
-Control RequiredFieldValidator2.
+RequiredFieldValidator2 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._apellido">
 <summary>
-Control apellido.
+apellido control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._RequiredFieldValidator6">
 <summary>
-Control RequiredFieldValidator6.
+RequiredFieldValidator6 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._password1">
 <summary>
-Control password1.
+password1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._RequiredFieldValidator3">
 <summary>
-Control RequiredFieldValidator3.
+RequiredFieldValidator3 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._password2">
 <summary>
-Control password2.
+password2 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._CompareValidator1">
 <summary>
-Control CompareValidator1.
+CompareValidator1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._RequiredFieldValidator4">
 <summary>
-Control RequiredFieldValidator4.
+RequiredFieldValidator4 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._tipo">
 <summary>
-Control tipo.
+tipo control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._Button1">
 <summary>
-Control Button1.
+Button1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm2._errorMsg">
 <summary>
-Control errorMsg.
+errorMsg control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:Laboratorio2.WebForm3._form1">
@@ -1278,6 +1413,66 @@ HyperLink2 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member>
+<member name="T:Laboratorio2.coordinador21.coordinador">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.coordinador21.coordinador.#ctor">
+<remarks/>
+</member>
+<member name="E:Laboratorio2.coordinador21.coordinador.obtenerMediaCompleted">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.coordinador21.coordinador.obtenerMedia(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.coordinador21.coordinador.obtenerMediaAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.coordinador21.coordinador.obtenerMediaAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.coordinador21.coordinador.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.coordinador21.obtenerMediaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.coordinador21.obtenerMediaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Laboratorio2.coordinador21.obtenerMediaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.matriculas.Matriculas">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.#ctor">
+<remarks/>
+</member>
+<member name="E:Laboratorio2.matriculas.Matriculas.comprobarCompleted">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.comprobar(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.comprobarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.comprobarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.matriculas.comprobarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.matriculas.comprobarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Laboratorio2.matriculas.comprobarCompletedEventArgs.Result">
+<remarks/>
 </member>
 </members>
 </doc>

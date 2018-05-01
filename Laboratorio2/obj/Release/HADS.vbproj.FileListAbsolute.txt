@@ -113,3 +113,4 @@ C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\obj\Release\HADS.vbproj
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\obj\Release\Laboratorio2.dll
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\obj\Release\Laboratorio2.xml
 C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\obj\Release\Laboratorio2.pdb
+C:\Users\Vesko\Desktop\HADS\LABS\HADS18-G21\Laboratorio2\bin\AjaxControlToolkit.dll

@@ -77,6 +77,15 @@ Partial Public Class Profesor
     Protected WithEvents HyperLink3 As Global.System.Web.UI.WebControls.HyperLink
     
     '''<summary>
+    '''HyperLink7 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents HyperLink7 As Global.System.Web.UI.WebControls.HyperLink
+    
+    '''<summary>
     '''ScriptManager1 control.
     '''</summary>
     '''<remarks>

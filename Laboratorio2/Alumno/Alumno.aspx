@@ -36,7 +36,7 @@
                 <asp:ListBox ID="Alumnos" runat="server"></asp:ListBox>
                 <ajaxToolkit:DragPanelExtender ID="Alumnos_DragPanelExtender" runat="server" BehaviorID="Alumnos_DragPanelExtender" DragHandleID="Alumnos" TargetControlID="Alumnos" />
                 <asp:ListBox ID="Profesores" runat="server"></asp:ListBox>
-                <ajaxToolkit:DragPanelExtender ID="Profesores_DragPanelExtender" runat="server" BehaviorID="Profesores_DragPanelExtender" DragHandleID="Profesores" TargetControlID="Profesores" />
+                <ajaxToolkit:ResizableControlExtender ID="Profesores_ResizableControlExtender" runat="server" BehaviorID="Profesores_ResizableControlExtender" TargetControlID="Profesores"/>                
                 <asp:Timer ID="Timer1" runat="server" Interval="6000">
                 </asp:Timer>
             </ContentTemplate>
@@ -44,3 +44,5 @@
     </form>
 </body>
 </html>
+
+

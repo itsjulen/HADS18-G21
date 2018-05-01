@@ -113,13 +113,13 @@ Partial Public Class Alumno
     Protected WithEvents Profesores As Global.System.Web.UI.WebControls.ListBox
     
     '''<summary>
-    '''Profesores_DragPanelExtender control.
+    '''Profesores_ResizableControlExtender control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Profesores_DragPanelExtender As Global.AjaxControlToolkit.DragPanelExtender
+    Protected WithEvents Profesores_ResizableControlExtender As Global.AjaxControlToolkit.ResizableControlExtender
     
     '''<summary>
     '''Timer1 control.

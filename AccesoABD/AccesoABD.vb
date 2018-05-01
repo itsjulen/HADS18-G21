@@ -115,4 +115,22 @@ Public Class AccesoABD
             queryString, conexion)
         Return adapter
     End Function
+
+    Public Shared Function obtener_media(ByVal asignatura As String) As Integer
+        Dim query = "SELECT AVG([EstudiantesTareas].[HReales]) AS media From ([Asignaturas] INNER JOIN [TareasGenericas] ON [Asignaturas].[codigo]=[TareasGenericas].[CodAsig]) INNER JOIN [EstudiantesTareas] ON [TareasGenericas].[Codigo]=[EstudiantesTareas].[CodTarea] WHERE [Asignaturas].[codigo]='" & asignatura & "'"
+        comando = New SqlCommand(query, conexion)
+        Dim reader As SqlDataReader = comando.ExecuteReader()
+        Dim media
+        Try
+            If reader.Read Then
+                media = reader.Item("media")
+            Else
+                media = 0
+            End If
+            Return media
+        Catch ex As Exception
+            Return 0
+        End Try
+
+    End Function
 End Class

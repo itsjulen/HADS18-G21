@@ -26,6 +26,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -115,6 +116,7 @@
     <Content Include="CerrarSesion.aspx" />
     <Content Include="ConfirmarRegistro.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Profesor\coordinador.aspx" />
     <Content Include="Profesor\EstadisticaProfesor.aspx" />
     <Content Include="Profesor\Exportar.aspx" />
     <Content Include="Profesor\ImportarXML.aspx" />
@@ -123,6 +125,7 @@
     <Content Include="Profesor\Profesor.aspx" />
     <Content Include="Alumno\TareasAlumno.aspx" />
     <Content Include="Profesor\TareasProfesor.aspx" />
+    <None Include="Web References\coordinador21\coordinador.disco" />
     <Content Include="Web.config" />
     <Content Include="InicioSesion.aspx" />
     <Content Include="Registro.aspx" />
@@ -166,6 +169,13 @@
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\coordinador.aspx.designer.vb">
+      <DependentUpon>coordinador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesor\coordinador.aspx.vb">
+      <DependentUpon>coordinador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Profesor\EstadisticaProfesor.aspx.designer.vb">
       <DependentUpon>EstadisticaProfesor.aspx</DependentUpon>
@@ -263,6 +273,16 @@
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Web References\coordinador21\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\matriculas\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -275,9 +295,13 @@
   <ItemGroup>
     <Content Include="Alumno\Web.config" />
     <Content Include="Admin\Web.config" />
+    <None Include=".dockerignore">
+      <DependentUpon>Dockerfile</DependentUpon>
+    </None>
     <None Include="App_Data\tareas.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Dockerfile" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -292,12 +316,52 @@
     <Content Include="Profesor\Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Web References\coordinador21\coordinador.wsdl" />
+    <None Include="Web References\coordinador21\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\matriculas\comprobarmatricula.wsdl" />
+    <Content Include="Web References\matriculas\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\matriculas\</RelPath>
+      <UpdateFromURL>http://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Laboratorio2_matriculas_Matriculas</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://coordinador21.azurewebsites.net/coordinador.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\coordinador21\</RelPath>
+      <UpdateFromURL>https://coordinador21.azurewebsites.net/coordinador.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Laboratorio2_coordinador21_coordinador</CachedSettingsPropName>
+    </WebReferenceUrl>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

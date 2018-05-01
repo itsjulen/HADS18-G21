@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  hads:
+    image: hads
+    build:
+      context: .\Laboratorio2
+      dockerfile: Dockerfile
